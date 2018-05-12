@@ -1,11 +1,12 @@
 
 .heading {
   text-align: center;
+  background-color: #ffffff;
 }
 
 .name{
+    
     background-color: #ffffff;
-    padding-top: 20px;
     font-weight: bold;
     color: #4f4f4f;
 }
@@ -268,4 +269,11 @@ html, body {
 .form-group{
     padding-top: 20px;
     font-size: 20px;
+}
+
+.index-page{
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 900;
+    color: #Ffffff;
 }
