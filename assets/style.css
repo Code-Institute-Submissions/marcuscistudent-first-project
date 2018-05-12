@@ -39,7 +39,7 @@
     padding-top: 20px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
     letter-spacing: 2px;
   
@@ -72,8 +72,15 @@
     display: inline-block;
     width: 100%;
     text-align:center;
-
 }
+
+.menueitem span:hover{
+     -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+    
 
 /*-------------------------------------------------------footer*/
 
@@ -136,6 +143,7 @@ footer .cv-pdf i:hover{
 /*--------------------------------------------------------------section*/
 
 .boom {
+    padding-bottom: 20px;
     background-color: white;
     background-position: center;
     background-repeat: no-repeat;
@@ -155,6 +163,7 @@ footer .cv-pdf i:hover{
     background-image: url("/assets/images/rockband.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: -10px;
     background-size: cover;
     min-height: 360px;
     transition: all .5s ease-in-out;
@@ -250,8 +259,8 @@ html, body {
 }
 
 .merchandise-row img:hover{
-    -webkit-transform: scale(1.5);
-	transform: scale(1.5);
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
