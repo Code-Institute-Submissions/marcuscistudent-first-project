@@ -249,6 +249,12 @@ html, body {
     text-align: center;
 }
 
+.merchandise-row img:hover{
+    -webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
 
 .form-group{
     padding-top: 20px;
