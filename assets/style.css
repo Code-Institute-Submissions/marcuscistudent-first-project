@@ -1,17 +1,19 @@
 
 .heading {
-  padding: 0px;
   text-align: center;
 }
 
 .name{
+    background-color: #ffffff;
+    padding-top: 20px;
     font-weight: bold;
-    color: #8B0000;
+    color: #4f4f4f;
 }
 
 .title{
+    background-color: #ffffff;
     font-weight: bold;
-    color: #8B0000;
+    color: #4f4f4f;
 }
 
 .navbar-inverse {
@@ -34,7 +36,7 @@
 .menueitem span{
     display: block;
     width: 100%;
-    padding-top: 5px;
+    padding-top: 20px;
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
@@ -51,19 +53,26 @@
 }
 
 .ui-menue-color-home{
-    background-color: #e67e22;
+    background-color: #a9a9a9;
 }
 
 .ui-menue-color-resume{
-    background-color: #9b59b6;
+    background-color: #696969;
 }
 
 .ui-menue-color-contact{
-    background-color: #3498db;
+    background-color: #525252;
 }
 
 .ui-menue-color-download{
-    background-color: #525252;
+    background-color: #000000;
+}
+
+.i, fa{
+    display: inline-block;
+    width: 100%;
+    text-align:center;
+
 }
 
 /*-------------------------------------------------------footer*/
@@ -126,9 +135,19 @@ footer .cv-pdf i:hover{
 
 /*--------------------------------------------------------------section*/
 
-section{
-    height: 100%;
-    padding: 0;
+.boom {
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    
+   
+    
 }
 
 
@@ -143,15 +162,31 @@ section{
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
 }
+/*---------------------------------------------info/history*/
 
+.history{
+    text-align:left;
+    color: #A9A9A9;
+}
+
+.lorum-text{
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    
+}
 
 /*-------------------------------------personal info*/
 
 .personal-info-item{
-    margin-bottom:20px;
     display: block;
     clear: both;
+    padding-top: 20px;
+    line-height: 60px;
+    font-size: 20px;
 }
+
+
 
 .personal-info-item .key,
 .personal-info-item .value {
@@ -179,4 +214,43 @@ section{
     display:inline-block;
     position:relative;
     width:60%;
+}
+/*--------------------------------------------sticky footer*/
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+
+.btn{
+    background-color: #e67e22;
+}
+
+.merchandise{
+    display: inline-block;
+    height:200px;
+    width: 200px;
+}
+
+.merchandise-row{
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.form-group{
+    padding-top: 20px;
+    font-size: 20px;
 }
