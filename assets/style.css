@@ -115,10 +115,16 @@ footer .cv-pdf i:hover {
 
 #whitebackground {
     background-color: #DFD5D5;
-    width: 700px;
+    width: 600px;
     text-align: center;
     border-radius: 25px;
 
+}
+
+#whitebackground-events {
+    background-color: #DFD5D5;
+    text-align: center;
+    border-radius: 25px;
 }
 
 
@@ -138,6 +144,10 @@ footer .cv-pdf i:hover {
 }
 
 /*-------------------------------------personal info*/
+
+.section-heading {
+    color: white;
+}
 
 .personal-info-item1 {
     position: relative;
@@ -330,6 +340,7 @@ body {
     display: table;
     text-align: left;
 }
+
 
 .nav-wrapper {
     width: 100%;

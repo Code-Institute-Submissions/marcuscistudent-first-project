@@ -1,18 +1,19 @@
-
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Rolling Pebbles Band Website
 
 
-Hi there! Welcome to Cloud9 IDE!
+This is my first project for Code Institute, I was tasked with developing a website for a band.
+I didnt want to use templates or any pre existing code to create the website so
+I coded it all in HTML and CSS from scratch.
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
+I wanted to display the bad and have a booking page and a small store/merchandise page.
+The webpage is designed to give the user a taste of what sort of image and music the band produce.
 
-Happy coding!
-The Cloud9 IDE team
+While there is a sample song, a video and clickable links, there isn't a functioning shopping cart
+because this isnt covered until later modules and I viewed the task as a basic one to 
+use and show off my html and css skills.
+
+If the Band existed then I would get real footage and music to put on the website as well as
+images of the actual merchandise for sale.
+
+The step after that would be to create a shopping cart using stripe and creating a user login,
+register, and logout function with automated emails when purchases are made.
