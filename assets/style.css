@@ -79,10 +79,11 @@ footer {
 
 }
 
-#whitebackground-events {
+.whitebackground-contact {
     background-color: #DFD5D5;
     text-align: center;
     border-radius: 25px;
+    height: 500px;
 }
 
 
@@ -347,3 +348,4 @@ body {
 section2 {
     text-align: center;
 }
+
