@@ -343,3 +343,7 @@ body {
     position: relative;
     z-index: 9998;
 }
+
+section2 {
+    text-align: center;
+}
