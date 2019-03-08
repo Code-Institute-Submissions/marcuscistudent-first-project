@@ -108,96 +108,8 @@ footer {
     color: white;
 }
 
-.personal-info-item1 {
-    position: relative;
-    display: block;
-    width: 700px;
-    height: 300px;
-    padding-top: 10px;
-    margin: 20px auto;
-    border-radius: 25px;
-    border: solid 3px black;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.personal-info-item2 {
-    position: relative;
-    display: block;
-    width: 700px;
-    height: 300px;
-    padding-top: 10px;
-    margin: 20px auto;
-    border-radius: 25px;
-    border: solid 3px black;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.personal-info-item3 {
-    position: relative;
-    display: block;
-    width: 700px;
-    height: 300px;
-    padding-top: 10px;
-    margin: 20px auto;
-    border-radius: 25px;
-    border: solid 3px black;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.personal-info-item4 {
-    position: relative;
-    display: block;
-    width: 700px;
-    height: 300px;
-    padding-top: 10px;
-    margin: 20px auto;
-    border-radius: 25px;
-    border: solid 3px black;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.personal-info-item5 {
-    position: relative;
-    display: block;
-    width: 700px;
-    height: 300px;
-    padding-top: 10px;
-    margin: 20px auto;
-    border-radius: 25px;
-    border: solid 3px black;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.personal-info-item6 {
-    position: relative;
-    display: block;
-    width: 700px;
-    height: 300px;
-    padding-top: 10px;
-    margin: 20px auto;
-    border-radius: 25px;
-    border: solid 3px black;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
-
-.personal-info-item .key,
-.personal-info-item .value {
-    padding-right: 8px;
-}
 
 .key p,
 .value p {
@@ -205,16 +117,15 @@ footer {
     margin: 0;
     font-weight: 700;
     text-shadow: -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+
 }
 
 .key {
     display: inline-block;
     width: 30%;
-    margin-right: 21px;
+    margin-right: 10px;
     padding-top: 2px;
+    padding-left: 350px;
     vertical-align: top;
 }
 
