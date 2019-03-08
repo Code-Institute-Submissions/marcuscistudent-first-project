@@ -116,7 +116,6 @@ footer {
     margin: 20px auto;
     border-radius: 25px;
     border: solid 3px black;
-    background-image: url("/first-project/assets/images/image1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,7 +130,6 @@ footer {
     margin: 20px auto;
     border-radius: 25px;
     border: solid 3px black;
-    background-image: url("/first-project/assets/images/image2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -146,7 +144,6 @@ footer {
     margin: 20px auto;
     border-radius: 25px;
     border: solid 3px black;
-    background-image: url("/first-project/assets/images/image3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -161,7 +158,6 @@ footer {
     margin: 20px auto;
     border-radius: 25px;
     border: solid 3px black;
-    background-image: url("/first-project/assets/images/image4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,7 +172,6 @@ footer {
     margin: 20px auto;
     border-radius: 25px;
     border: solid 3px black;
-    background-image: url("/first-project/assets/images/image5.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,7 +186,6 @@ footer {
     margin: 20px auto;
     border-radius: 25px;
     border: solid 3px black;
-    background-image: url("/first-project/assets/images/image6.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,7 +232,6 @@ body {
     height: 100%;
     margin: 0;
     background-color: #000000;
-    background-image: url("/first-project/assets/images/rockband.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 1440px 900px;
