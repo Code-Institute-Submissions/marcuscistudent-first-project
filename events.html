@@ -14,24 +14,20 @@
       
         <header class="container-fluid">
              <div class="row">
-                <div class="col-md-4 col-sm-4 col-xs-4">
-				 <nav class="nav-menu">
-				     <ul class="clearfix">
-                        <li class="big"><a href="#">Menue</a>
-                            <ul class="sub-menu dropdown-menu-left">
-                                <li><a href="https://marcuscistudent.github.io/first-project/index" class="fa fa-home">Home</a></li>
-                                <li><a href="https://marcuscistudent.github.io/first-project/events" class="fa fa-calendar">Events</a></li>
-                                <li><a href="https://marcuscistudent.github.io/first-project/merchandise" class="fa fa-shopping-cart">Merchandise</a></li>
-                                <li><a href="https://marcuscistudent.github.io/first-project/contact" class="fa fa-phone">Contact</a></li>
-                        </li>
-                        </ul>
-                    </ul>
-				 </nav>
+				 <div class="topnav" id="myTopnav">
+                      <a href="https://marcuscistudent.github.io/first-project/index" class="fa fa-home"" class="active">Home</a>
+                      <a href="https://marcuscistudent.github.io/first-project/events" class="fa fa-calendar"">Events</a>
+                      <a href="https://marcuscistudent.github.io/first-project/merchandise" class="fa fa-shopping-cart">Merchandise</a>
+                      <a href="https://marcuscistudent.github.io/first-project/contact" class="fa fa-phone">Contact</a>
+                      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                </div>
 			</div>
-			<div class="col-md-4 col-sm-4 col-xs-4 mainLogo">
-				<h1 class="title" style="font-size:10vw">The Rolling Pebbles</h1>
+			<div class="mainLogo">
+				<h1 class="title">The Rolling Pebbles</h1>
 			</div>
-        </header>
+        </header><br><br><br>
         
         
          <section class="container-fluid boom">
@@ -40,7 +36,7 @@
                             <h2 class="section-heading uppercase">Tour dates and Venues</h2>
                         </div>
                         <h4>To book tours and purchase merchandise click <a href="https://marcuscistudent.github.io/first-project/merchandise">here</a></h4>
-                    </div>
+                    </div><br>
                     
                         <div class="key">
                             <p class="uppercase">Manchester:</p>
@@ -53,7 +49,6 @@
                         England, immediately north of the city centre <br>and partly 
                         above Manchester Victoria station in air rights space.</p><br>
                         
-                    </div></a>
                         <div class="key">
                             <p class="uppercase">Leeds:</p>
                         </div>
@@ -65,7 +60,8 @@
                         England. <br>It is the first in the United Kingdom to 
                         have a fan-shaped orientation.</p><br>
                         
-                    </div>
+                        
+                        
                         <div class="key">
                             <p class="uppercase">Birmingham:</p>
                         </div>
@@ -77,7 +73,6 @@
                         owned by parent company, the NEC Group, is situated in central Birmingham.<br> 
                         When it was opened in 1991, it was the largest indoor arena in the UK.</p><br>
                         
-                    </div></a>
                         <div class="key">
                             <p class="uppercase">Chelsea:</p>
                         </div>
@@ -98,15 +93,25 @@
 
         
         <footer class="container-fluid">
-        <div id="footer-details" class="row">
+        <div id="footer-details" class="container-fluid">
             <div>
-                <p class="inline-block" style="font-size:10vw">
+                <p class="inline-block">
                     The Rolling Pebbles official Rolling stones UK based tribute band, perfrming in the UK since 1989.
                 </p>
             </div>
             
         </div>
     </footer>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 </body>
 
