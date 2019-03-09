@@ -116,6 +116,7 @@ footer {
     padding-bottom: 20px;
     min-height: 360px;
     text-align: center;
+    color: #CBBDBD;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
