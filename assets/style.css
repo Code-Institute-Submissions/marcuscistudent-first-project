@@ -158,7 +158,7 @@ footer {
 /*-------------------------------------personal info*/
 
 .section-heading {
-    color: white;
+    color: #CBBDBD;
 }
 
 
@@ -191,6 +191,10 @@ footer {
     display: inline-block;
     position: relative;
     width: 60%;
+}
+
+.section2 {
+    color: #CBBDBD;
 }
 
 /*--------------------------------------------sticky footer*/
