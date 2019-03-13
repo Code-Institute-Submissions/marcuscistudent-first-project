@@ -1,64 +1,95 @@
 # Rolling Pebbles Band Website
 
+The wbesite is a tribute to the rolling pebbles band(Rolling Stones tribute band).
 
-This is my first project for Code Institute, I was tasked with developing a website for a band.
-I didnt want to use templates or any pre existing code to create the website so
-I coded it all in HTML and CSS from scratch.
+The website displays band members, the venues toured, the band merchandise and
+a contact page.
 
-I wanted to display the bad members, to show some of the vunes that they play at, to show what
-is sold at their store and also to have a contact page.
-The webpage is designed to give the user a taste of what sort of image and music the band produce.
+The webpage is designed to give the user a taste of what sort of image and music the band produces.
 
 There is a sample song, a video and clickable links, the site is also
-responsice and works well on mobile as well as other devices.
+responsive and works well on mobile as well as other devices.
+
+![Mobile]( "Mobile")
+![Desktop]( "Desktop")
+
+## The site can be viewed [here](https://marcuscistudent.github.io/first-project/index). 
+
+## UX
+
+The goal in the design was to was to create website which is easy to navigate
+and gives the user and idea of what the band represents.
+
+The black and grey colour scheme was chosen to represent a rock feel to the site.
+
+The wbesite should create an interest in the band and allow the users to enquire
+about merchandise and about the latest gigs that can be booked.
+
+## Technologies
+1. HTML
+2. CSS
+3. Bootstrap (3.3.7)
+4. Font Awesome (4.7.0)
+5. Jquery
 
 
+## Features
 
-# UX
+The website uses Jquery to enable a responsive dropdown menu for different screen sizes.
 
-I wanted to view a band website. have a preview of what they do, gain a little bit
-of info about the band and for the user to understand enough about them for them to enquire
-about tour dates, tickets and merchandise. The video clip of the band shows them performing
-and the audio clip is to one of their records.
+### Features left to implement
 
+In the future more music tracks will be added and more images.
 
-# Features
-
-the website uses javascript to enable a responsive dropdown menu for different screen sizes
-there are icons from font awesome to make the site more navigatable
-
-the contact page makes it easy to contact the owner of the site and the events page
-makes it possible to see where the band have played and where they are playing next.
-
-If the Band existed then I would get real footage and music to put on the website as well as
-images of the actual merchandise for sale.
-
-The step after that would be to create a shopping cart using stripe and creating a user login,
+The step after that would be to create a shopping cart and a user login,
 register, and logout function with automated emails when purchases are made.
 
 
-# Testing
+## Testing
 
 The website has now been rigorously tested, the images have been minified and
-GIMP was used to scale the images.
+GIMP was used to scale the images to improve the loading time.
 
-The website has been tested on different screen sizes, browsers and devices
-including phones and everything loads correctly.
+The website has been tested on different screen sizes(Mobile, Laptop, Ipad), 
+browsers(chrome, IE and FireFox) and devices to make sure that
+everything loads correctly.
 
-all links function correctly and all elements that have been implemented render the
+All of links function correctly and all elements that have been implemented render the
 way that they should.
 
+The contact form link opens up an email account on all browsers and devices tested.
 
-# Deployment
+The merchandise page uses a ```href="#scroll-to-here"``` href so that users can 
+easily navigate to ```id="scroll-to-here"``` the so they can purchase merchandise or tickets.
 
-The webpage is deployed using github pages. I have only changed the links and 
-image tags in the deployed version so that they lead to the correct source.
-I added first-project/ before most of my tags because that is the format that
-github pages requires.
+## Deployment
+
+The webpage is hosted using GitHub pages. 
+The links and image tags in the deployed version have been changed so 
+that they lead to the correct source for GitHub pages to render.
+```first-project/``` was added before most of my tags because that is the format that
+GitHub pages requires.
+
+To run the repository locally, you can download the files and upload them
+to the editor ouf your choice or enter this into your terminal
+```git clone https://github.com/marcuscistudent/first-project.git```
 
 
-# Credits
+## Credits
 
+### Content
+The all written conent was freshly developed.
 Venue descriptions were taken from wikipedia
-most images were taken from pxhere.com
+
+### Media
+Images were taken from [Pxhere](https://pxhere.com/).
+
+The video was was taken from [Videezy](https://www.videezy.com).
+
+The audio was taken from [Bensound](https://www.bensound.com/).
+
+### Acknowledgements
+
+The responsive menu was found using this tutorial [here](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp).
+
 
