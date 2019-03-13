@@ -79,7 +79,7 @@ to the editor of your choice or enter this into your terminal
 ## Credits
 
 ### Content
-All written conent is original with the exception of the 
+All written content is original with the exception of the 
 venue descriptions which were taken from wikipedia.
 
 ### Media
