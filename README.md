@@ -10,8 +10,8 @@ The webpage is designed to give the user a taste of what sort of image and music
 There is a sample song, a video and clickable links, the site is also
 responsive and works well on mobile as well as other devices.
 
-![Mobile]( "Mobile")
-![Desktop]( "Desktop")
+![Mobile](https://github.com/marcuscistudent/first-project/blob/master/assets/images/mobile.png "Mobile")
+![Desktop](https://github.com/marcuscistudent/first-project/blob/master/assets/images/desktop.png "Desktop")
 
 ## The site can be viewed [here](https://marcuscistudent.github.io/first-project/index). 
 
