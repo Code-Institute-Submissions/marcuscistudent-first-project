@@ -14,7 +14,7 @@ responsice and works well on mobile as well as other devices.
 
 
 
-UX
+# UX
 
 I wanted to view a band website. have a preview of what they do, gain a little bit
 of info about the band and for the user to understand enough about them for them to enquire
@@ -22,7 +22,7 @@ about tour dates, tickets and merchandise. The video clip of the band shows them
 and the audio clip is to one of their records.
 
 
-Features
+# Features
 
 the website uses javascript to enable a responsive dropdown menu for different screen sizes
 there are icons from font awesome to make the site more navigatable
@@ -37,7 +37,7 @@ The step after that would be to create a shopping cart using stripe and creating
 register, and logout function with automated emails when purchases are made.
 
 
-Testing
+# Testing
 
 The website has now been rigorously tested, the images have been minified and
 GIMP was used to scale the images.
@@ -49,7 +49,7 @@ all links function correctly and all elements that have been implemented render 
 way that they should.
 
 
-Deployment
+# Deployment
 
 The webpage is deployed using github pages. I have only changed the links and 
 image tags in the deployed version so that they lead to the correct source.
@@ -57,7 +57,7 @@ I added first-project/ before most of my tags because that is the format that
 github pages requires.
 
 
-Credits
+# Credits
 
 Venue descriptions were taken from wikipedia
 most images were taken from pxhere.com
