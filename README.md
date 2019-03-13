@@ -1,6 +1,6 @@
 # Rolling Pebbles Band Website
 
-The wbesite is a tribute to the rolling pebbles band(Rolling Stones tribute band).
+The wbesite is a tribute to the Rolling Pebbles band(Rolling Stones tribute band).
 
 The website displays band members, the venues toured, the band merchandise and
 a contact page.
@@ -23,7 +23,7 @@ and gives the user and idea of what the band represents.
 
 The black and grey colour scheme was chosen to represent a rock feel to the site.
 
-The wbesite should create an interest in the band and allow the users to enquire
+The website should create an interest in the band and allow the users to enquire
 about merchandise and about the latest gigs that can be booked.
 
 ## Technologies
@@ -40,7 +40,7 @@ The website uses Jquery to enable a responsive dropdown menu for different scree
 
 ### Features left to implement
 
-In the future more music tracks will be added and more images.
+In the future, more music tracks will be added and more images.
 
 The step after that would be to create a shopping cart and a user login,
 register, and logout function with automated emails when purchases are made.
@@ -48,7 +48,7 @@ register, and logout function with automated emails when purchases are made.
 
 ## Testing
 
-The website has now been rigorously tested, the images have been minified and
+The website has been tested, the images have been minified and
 GIMP was used to scale the images to improve the loading time.
 
 The website has been tested on different screen sizes(Mobile, Laptop, Ipad), 
@@ -61,7 +61,7 @@ way that they should.
 The contact form link opens up an email account on all browsers and devices tested.
 
 The merchandise page uses a ```href="#scroll-to-here"``` href so that users can 
-easily navigate to ```id="scroll-to-here"``` the so they can purchase merchandise or tickets.
+easily navigate to ```id="scroll-to-here"``` so they can purchase merchandise or tickets.
 
 ## Deployment
 
@@ -72,15 +72,15 @@ that they lead to the correct source for GitHub pages to render.
 GitHub pages requires.
 
 To run the repository locally, you can download the files and upload them
-to the editor ouf your choice or enter this into your terminal
-```git clone https://github.com/marcuscistudent/first-project.git```
+to the editor of your choice or enter this into your terminal
+```git clone https://github.com/marcuscistudent/first-project.git```.
 
 
 ## Credits
 
 ### Content
-The all written conent was freshly developed.
-Venue descriptions were taken from wikipedia
+All written conent is original with the exception of the 
+venue descriptions which were taken from wikipedia.
 
 ### Media
 Images were taken from [Pxhere](https://pxhere.com/).
