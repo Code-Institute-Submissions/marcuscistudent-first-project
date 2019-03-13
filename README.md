@@ -1,4 +1,4 @@
-Rolling Pebbles Band Website
+# Rolling Pebbles Band Website
 
 
 This is my first project for Code Institute, I was tasked with developing a website for a band.
